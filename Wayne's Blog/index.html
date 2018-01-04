@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <style>
+  header {
+    text-align: center;
+    background: url("http://www.cmt.com.sg/images/banner-clarke-quay.jpg");
+    background-size: cover;
+    color: white;
+  }
+  a {
+    color: white;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  img {
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
+  }
+  ul {
+    padding: 10px;
+    background: rgba(255,0,255,0.5);
+  }
+  li {
+    display: inline;
+    padding 0px 10px 0px 10px;
+  }
+  article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 25px;
+  }
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+    }
+    li {
+      display: block;
+      padding: 5px;
+    }
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://www.all-worldwide.com/media/77071/0979_aerial_night_3.jpg">
+    <h1>Wayne's World Blog</h1>
+    <ul>
+      <li>About Pre-war Shophouse</li>
+      <li>Architecture</li>
+      <li>Conservation Districts</li>
+    </ul>
+  </header>
+  <article>
+    <h2>Pre-war shophouses</h2>
+    <p>The Shophouse, a reminder of architecture past, is a common sight in neighbourhoods such as Joo Chiat,
+      Emerald Hill and Tanjong Pagar. Singapore has more than 6,500 conserved shophouses, which were built between the early 1800s and mid 1900s.</p>
+<button>Like</button>
+</article>
+    <article>
+      <h2>Architecture and Facade</h2>
+      <p>You can tell which era these classy beauties were designed and built in just by looking at their facade and detailing.
+        For example, the first shophouses here were short with one or two timber windows on the second floor and little decoration on the outside.
+        Later in the 1930s, Art Deco-styled shophouses, which used Shanghai plaster and had column orders and arches, came into fashion.
+        Today, many young home owners are giving theses shophouses new leases of life, remodelling the interiors and restoring the faded facades to their former glory.</p>
+  <button>Like</button>
+</article>
+      <article>
+        <h2>Conservation Districts</h2>
+        <p>The Historic Districts of Boat Quay, Chinatown, Kampong Glam and Little India.
+           The Residential Historic Districts of Emerald Hill, Cairnhill and Blair Plain.
+           The Good Class Bungalow Areas and the Mountbatten Road Conservation Area.</p>
+    <button>Like</button>
+  </article>
+<script>
+$("button").on("click", function() {
+  alert("Clicked!");
+});
+</script>
+}
+</body>
+</html>
